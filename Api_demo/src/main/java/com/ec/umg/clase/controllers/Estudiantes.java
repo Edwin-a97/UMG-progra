@@ -12,23 +12,23 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class Estudiantes {
 	
-	@GetMapping("/get")
+	@GetMapping("/api/demo")
 	public String getEstudiante () {
 		return "Hola Se utilizo el metodo get " ;
 		
 	}
-	@PutMapping("/put")
+	@PutMapping("/api/demo")
 	public String putEstudiante () {
 		return "Hola Se utilizo el metodo put" ;
 		
 	}
-	@PostMapping("/post")
+	@PostMapping("/api/demo")
 	public String postEstudiante () {
 		return "Hola Se utilizo el metodo Post" ;
 		
 	}
 	
-	@DeleteMapping("/delete")
+	@DeleteMapping("/api/demo")
 	public String deleteEstudiante () {
 		return "Hola mundo desde spring usando Delete " ;
 		
